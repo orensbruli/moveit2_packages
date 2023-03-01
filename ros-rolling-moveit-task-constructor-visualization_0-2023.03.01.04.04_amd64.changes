@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-rolling-moveit-task-constructor-visualization
+Binary: ros-rolling-moveit-task-constructor-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.04.04
+Distribution: jammy
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-rolling-moveit-task-constructor-visualization - Visualization tools for MoveIt Task Pipeline
+Changes:
+ ros-rolling-moveit-task-constructor-visualization (0-2023.03.01.04.04) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Robert Haschke, Michael Görner
+Checksums-Sha1:
+ 7748243e52f710c57e4df0848fb892b576d09498 16772146 ros-rolling-moveit-task-constructor-visualization-dbgsym_0-2023.03.01.04.04_amd64.ddeb
+ f8019a4108d03fb9668b93de5160379a470b73b5 33291 ros-rolling-moveit-task-constructor-visualization_0-2023.03.01.04.04_amd64.buildinfo
+ 876a8cc7ed627b3cab569da65a263c4d6a433121 466630 ros-rolling-moveit-task-constructor-visualization_0-2023.03.01.04.04_amd64.deb
+Checksums-Sha256:
+ 17eb275caedaefb51c5f945637251365ab49287fcdee4ebe0febd4b7351e41da 16772146 ros-rolling-moveit-task-constructor-visualization-dbgsym_0-2023.03.01.04.04_amd64.ddeb
+ 8b8d726928f381a68d7f0472040489d247b66efdf6e0f95720dc5c9b2e6e6f7a 33291 ros-rolling-moveit-task-constructor-visualization_0-2023.03.01.04.04_amd64.buildinfo
+ cf499ea408f09c2fb88cfffe2c8af2d16bcc7fe82e2bd19c0bf422328e77ab4a 466630 ros-rolling-moveit-task-constructor-visualization_0-2023.03.01.04.04_amd64.deb
+Files:
+ f2bffdceaddba80d901d830d49c3dcb7 16772146 debug optional ros-rolling-moveit-task-constructor-visualization-dbgsym_0-2023.03.01.04.04_amd64.ddeb
+ 5b7bb08922b570e9ea47ba588fc9367f 33291 misc optional ros-rolling-moveit-task-constructor-visualization_0-2023.03.01.04.04_amd64.buildinfo
+ 6fa0cd8a30e77854adf9eadf14754e26 466630 misc optional ros-rolling-moveit-task-constructor-visualization_0-2023.03.01.04.04_amd64.deb

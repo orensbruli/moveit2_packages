@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-chomp-optimizer-adapter
+Binary: ros-rolling-moveit-chomp-optimizer-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.02.59
+Distribution: jammy
+Urgency: high
+Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Changed-By: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Description:
+ ros-rolling-moveit-chomp-optimizer-adapter - MoveIt planning request adapter utilizing chomp for solution opti
+Changes:
+ ros-rolling-moveit-chomp-optimizer-adapter (2.7.0-9-gc27cb30c2-2023.03.01.02.59) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Contributors: Chris Thrasher, Christian Henkel
+Checksums-Sha1:
+ d11005d4c875eda9e1b88b5f264f652ca92815cf 2047210 ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.ddeb
+ df9d8cc46809bb05c53eecc316cf178fd8af5430 27545 ros-rolling-moveit-chomp-optimizer-adapter_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.buildinfo
+ fae7309f92a56fea4aef6a61e9ddf86bcf5f6896 28958 ros-rolling-moveit-chomp-optimizer-adapter_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.deb
+Checksums-Sha256:
+ 43faa9eec0f14fe634c3dab08c698ed9db0c70c6740a426050f2c7bedbf681b2 2047210 ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.ddeb
+ 4adc3d6ba75a1ff9b0fb35d0277ba496162ff33514dff92212b086f31efd4e07 27545 ros-rolling-moveit-chomp-optimizer-adapter_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.buildinfo
+ a0ab925e6fe9564af16ff27d8dd726aba4e7ab9c13ba7f478c5eae4f6b39eaa9 28958 ros-rolling-moveit-chomp-optimizer-adapter_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.deb
+Files:
+ 8f148b7112ed31eef5036816600dc3cc 2047210 debug optional ros-rolling-moveit-chomp-optimizer-adapter-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.ddeb
+ 7597b0d41666fc72cfcb4fe510b65eee 27545 misc optional ros-rolling-moveit-chomp-optimizer-adapter_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.buildinfo
+ b9d7db2be561a4c6184df1c9dc9da53a 28958 misc optional ros-rolling-moveit-chomp-optimizer-adapter_2.7.0-9-gc27cb30c2-2023.03.01.02.59_amd64.deb

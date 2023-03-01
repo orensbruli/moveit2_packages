@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-chomp-motion-planner
+Binary: ros-rolling-chomp-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.02.58
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-rolling-chomp-motion-planner - chomp_motion_planner
+Changes:
+ ros-rolling-chomp-motion-planner (2.7.0-9-gc27cb30c2-2023.03.01.02.58) jammy; urgency=high
+ .
+   * Merge https://github.com/ros-planning/moveit/commit/9225971216885490e933ece25390c63ca14f8a58
+   * Switch to clang-format-14 (#1877 <https://github.com/ros-planning/moveit2/issues/1877>)
+     * Switch to clang-format-14
+     * Fix clang-format-14
+   * Change log level of CHOMP runtime output and change kdl print (#1818 <https://github.com/ros-planning/moveit2/issues/1818>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Fix segfaults in CHOMP (#3204 <https://github.com/ros-planning/moveit2/issues/3204>)
+     * due to missing description_
+     * in case of an unspecified input trajectory
+   * Contributors: Abhijeet Das Gupta, Abishalini, Chris Thrasher, Christian Henkel, Cory Crean, Henning Kayser, Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ 88d14a3ac3e2076aa171ee08ac8b3faf94706202 6934958 ros-rolling-chomp-motion-planner-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.ddeb
+ b179c52d2d80d0bfb8a042f8b0bb271ad1137beb 27383 ros-rolling-chomp-motion-planner_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.buildinfo
+ 6bc808b9bdc158839986130544e80ea2bc0d2c6d 100244 ros-rolling-chomp-motion-planner_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.deb
+Checksums-Sha256:
+ ac257365d84617fff189f986c41d51bfbb4743728523bf6aea8883c8da31b108 6934958 ros-rolling-chomp-motion-planner-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.ddeb
+ 0a69078830803d7886b10997ce218ceb6ee186fcd907a8d8f01b58ab31589e5e 27383 ros-rolling-chomp-motion-planner_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.buildinfo
+ 3a5249e8e709e628f1bcf83d783c3ae93e2742475f3e442cc828607ba96ba573 100244 ros-rolling-chomp-motion-planner_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.deb
+Files:
+ cff4afc55a57fdff7668a1fe2ed39d25 6934958 debug optional ros-rolling-chomp-motion-planner-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.ddeb
+ 924380380bcffcff75bb82c8434793be 27383 misc optional ros-rolling-chomp-motion-planner_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.buildinfo
+ 905172f39cb7cced34ea0aa721909805 100244 misc optional ros-rolling-chomp-motion-planner_2.7.0-9-gc27cb30c2-2023.03.01.02.58_amd64.deb

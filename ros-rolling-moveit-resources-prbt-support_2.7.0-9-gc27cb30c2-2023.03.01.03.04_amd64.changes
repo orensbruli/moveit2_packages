@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-resources-prbt-support
+Binary: ros-rolling-moveit-resources-prbt-support
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.04
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-rolling-moveit-resources-prbt-support - Mechanical, kinematic and visual description of the Pilz light we
+Changes:
+ ros-rolling-moveit-resources-prbt-support (2.7.0-9-gc27cb30c2-2023.03.01.03.04) jammy; urgency=high
+Checksums-Sha1:
+ 244c927516f70945b42a0daa690c698d8f929952 9238 ros-rolling-moveit-resources-prbt-support_2.7.0-9-gc27cb30c2-2023.03.01.03.04_amd64.buildinfo
+ 64f78cc6d63edfd297f47913354f18c62bc062b1 789898 ros-rolling-moveit-resources-prbt-support_2.7.0-9-gc27cb30c2-2023.03.01.03.04_amd64.deb
+Checksums-Sha256:
+ 317ac6268c68776f5e08cc45b59bfa16ebbafd82e22bd8c4181d64dab0e34459 9238 ros-rolling-moveit-resources-prbt-support_2.7.0-9-gc27cb30c2-2023.03.01.03.04_amd64.buildinfo
+ a36d49efd8ca60b3c672cc097d74e275f077b359e35373c7e1de6a352ad12bcd 789898 ros-rolling-moveit-resources-prbt-support_2.7.0-9-gc27cb30c2-2023.03.01.03.04_amd64.deb
+Files:
+ 5fd06e3c7cbcc9de82eef0ff955abb26 9238 misc optional ros-rolling-moveit-resources-prbt-support_2.7.0-9-gc27cb30c2-2023.03.01.03.04_amd64.buildinfo
+ e7ad0b84e73498405e280996550fc8b7 789898 misc optional ros-rolling-moveit-resources-prbt-support_2.7.0-9-gc27cb30c2-2023.03.01.03.04_amd64.deb

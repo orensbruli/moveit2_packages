@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-move-group
+Binary: ros-rolling-moveit-ros-move-group
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.14
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-ros-move-group - The move_group node for MoveIt
+Changes:
+ ros-rolling-moveit-ros-move-group (2.7.0-9-gc27cb30c2-2023.03.01.03.14) jammy; urgency=high
+ .
+   * move_group: Delete unused execute_trajectory_service_capability (#1836 <https://github.com/ros-planning/moveit2/issues/1836>)
+   * keep printf color change on same line (#1828 <https://github.com/ros-planning/moveit2/issues/1828>)
+     This ensures the color reset is applied because printing the color
+     reset after new lines seems to preven the color from actually being reset.
+     Co-authored-by: William Wedler <mailto:william.wedler@resquared.com>
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, AndyZe, Christian Henkel, Cory Crean, Robert Haschke, Will
+Checksums-Sha1:
+ 61e81c3c3b5a8788df9ad6d69484a68de089a7ed 23763752 ros-rolling-moveit-ros-move-group-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.ddeb
+ e71b62d08ed7a3af97386d822868c0311dc4b955 28426 ros-rolling-moveit-ros-move-group_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.buildinfo
+ 3cd02c2893985244b77db6bc0b0164ee0c1b59a3 341040 ros-rolling-moveit-ros-move-group_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.deb
+Checksums-Sha256:
+ 524fe25a8653ba921abe78cd32fd17121c8cf26625c713898ad5ad96a0595067 23763752 ros-rolling-moveit-ros-move-group-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.ddeb
+ a57f586a7c4b21881b80ccff329eb3519819642a0f8dc7ed744eee1dc0b617cd 28426 ros-rolling-moveit-ros-move-group_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.buildinfo
+ 64a6a1b7090dcd8eafd91878df7c282cf8311c52c09438e91d5ca01b6b5649a8 341040 ros-rolling-moveit-ros-move-group_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.deb
+Files:
+ e834b8316e2a1e51bfcf74b044eb9476 23763752 debug optional ros-rolling-moveit-ros-move-group-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.ddeb
+ 23b19ffec8df44e2ce90d10dfaf379d7 28426 misc optional ros-rolling-moveit-ros-move-group_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.buildinfo
+ 92b871c6d7afb80facf5afbfd52b2762 341040 misc optional ros-rolling-moveit-ros-move-group_2.7.0-9-gc27cb30c2-2023.03.01.03.14_amd64.deb

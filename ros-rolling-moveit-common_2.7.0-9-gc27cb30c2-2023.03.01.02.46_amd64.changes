@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-common
+Binary: ros-rolling-moveit-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.02.46
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-common - Common support functionality used throughout MoveIt
+Changes:
+ ros-rolling-moveit-common (2.7.0-9-gc27cb30c2-2023.03.01.02.46) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add -Wunused-parameter (#1756 <https://github.com/ros-planning/moveit2/issues/1756>)
+   * Add -Wunused-function (#1754 <https://github.com/ros-planning/moveit2/issues/1754>)
+   * Contributors: Chris Thrasher, Christian Henkel
+Checksums-Sha1:
+ 0f75d7a37a750bf5e6557b93ea21736e4ea4f523 11070 ros-rolling-moveit-common_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.buildinfo
+ e9548df0ca4ffada1816590d86f478abba7c3c31 7786 ros-rolling-moveit-common_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.deb
+Checksums-Sha256:
+ 14d7362731d7872f1b994da93f2c7d99e7ad2061d87bd27ffaaa325d159f559f 11070 ros-rolling-moveit-common_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.buildinfo
+ 0d13c9cad7572f86ad6127174830db92c0d6c0b965007f0c4114f87e515cef99 7786 ros-rolling-moveit-common_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.deb
+Files:
+ fae255ec564b0ab637911eeecf854b03 11070 misc optional ros-rolling-moveit-common_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.buildinfo
+ 4e31f5fb384a5581f7976551d7bf1027 7786 misc optional ros-rolling-moveit-common_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.deb

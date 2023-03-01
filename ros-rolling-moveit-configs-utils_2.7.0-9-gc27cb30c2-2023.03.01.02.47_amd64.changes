@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-configs-utils
+Binary: ros-rolling-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.02.47
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-rolling-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-rolling-moveit-configs-utils (2.7.0-9-gc27cb30c2-2023.03.01.02.47) jammy; urgency=high
+ .
+   * feat: adds compatibility to robot_description from topic instead of parameter (#1806 <https://github.com/ros-planning/moveit2/issues/1806>)
+   * Add support for multiple MoveItConfigBuilder instaces (#1807 <https://github.com/ros-planning/moveit2/issues/1807>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel, Marco Magri
+Checksums-Sha1:
+ 94e7c6b7936644e4f2dbb5c93c24e5ae6bf1da5f 9933 ros-rolling-moveit-configs-utils_2.7.0-9-gc27cb30c2-2023.03.01.02.47_amd64.buildinfo
+ 2c78c1fda1d8b089f33b7e6ef9e0aa174d3f5388 23080 ros-rolling-moveit-configs-utils_2.7.0-9-gc27cb30c2-2023.03.01.02.47_amd64.deb
+Checksums-Sha256:
+ 56f9f0d646086f7feda7e45f66d9ea54d89908fe0cb0affbca4f60df3c53fa00 9933 ros-rolling-moveit-configs-utils_2.7.0-9-gc27cb30c2-2023.03.01.02.47_amd64.buildinfo
+ e8e6a706e4d0c9cdbeef131abe632ac6834264d8475a86103af81f24295c9016 23080 ros-rolling-moveit-configs-utils_2.7.0-9-gc27cb30c2-2023.03.01.02.47_amd64.deb
+Files:
+ 00ffc4ac9f393eff09f4343f832d3c82 9933 misc optional ros-rolling-moveit-configs-utils_2.7.0-9-gc27cb30c2-2023.03.01.02.47_amd64.buildinfo
+ 3f9ca80d1e9af308e868e3ba52f0030c 23080 misc optional ros-rolling-moveit-configs-utils_2.7.0-9-gc27cb30c2-2023.03.01.02.47_amd64.deb

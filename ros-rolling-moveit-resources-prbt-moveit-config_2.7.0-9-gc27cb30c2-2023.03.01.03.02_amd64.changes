@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-resources-prbt-moveit-config
+Binary: ros-rolling-moveit-resources-prbt-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.02
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-rolling-moveit-resources-prbt-moveit-config - MoveIt Resources for testing: Pilz PRBT 6 A project-internal conf
+Changes:
+ ros-rolling-moveit-resources-prbt-moveit-config (2.7.0-9-gc27cb30c2-2023.03.01.03.02) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 0422690d055f1fc88de94676d7308df5645eb319 9265 ros-rolling-moveit-resources-prbt-moveit-config_2.7.0-9-gc27cb30c2-2023.03.01.03.02_amd64.buildinfo
+ 38f677763ec3d7300dd5c16b13566b31a202273a 13990 ros-rolling-moveit-resources-prbt-moveit-config_2.7.0-9-gc27cb30c2-2023.03.01.03.02_amd64.deb
+Checksums-Sha256:
+ 3bf798aa258c60f6a50e0fdc2d979debbc4ef38df42714ae94d7d6855a2ec09f 9265 ros-rolling-moveit-resources-prbt-moveit-config_2.7.0-9-gc27cb30c2-2023.03.01.03.02_amd64.buildinfo
+ 265355721129259c56df289a318d319527d2459a41db4784432fb09ab2bde127 13990 ros-rolling-moveit-resources-prbt-moveit-config_2.7.0-9-gc27cb30c2-2023.03.01.03.02_amd64.deb
+Files:
+ ad96331b08555aaec5b3c6da50f7e1fc 9265 misc optional ros-rolling-moveit-resources-prbt-moveit-config_2.7.0-9-gc27cb30c2-2023.03.01.03.02_amd64.buildinfo
+ 29ab5cdc9ba34a22ff0c5accf77dc90a 13990 misc optional ros-rolling-moveit-resources-prbt-moveit-config_2.7.0-9-gc27cb30c2-2023.03.01.03.02_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-rolling-moveit-task-constructor-core
+Binary: ros-rolling-moveit-task-constructor-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.03.57
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Goerner <me@v4hn.de>
+Changed-By: Michael Goerner <me@v4hn.de>
+Description:
+ ros-rolling-moveit-task-constructor-core - MoveIt Task Pipeline
+Changes:
+ ros-rolling-moveit-task-constructor-core (0-2023.03.01.03.57) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Michael Görner, Robert Haschke, Captain Yoshi, Christian Petersmeier, Henning Kayser, Jafar Abdi, Tyler Weaver
+Checksums-Sha1:
+ c54d9e5ee635a53cfe67d3f1f0c1348e6c09e4b6 39134366 ros-rolling-moveit-task-constructor-core-dbgsym_0-2023.03.01.03.57_amd64.ddeb
+ d96151859ca107213812838d7ae338bb64c71387 33111 ros-rolling-moveit-task-constructor-core_0-2023.03.01.03.57_amd64.buildinfo
+ d7f9d1d0878b2614d1c5b432d7be8872e6684ce0 498354 ros-rolling-moveit-task-constructor-core_0-2023.03.01.03.57_amd64.deb
+Checksums-Sha256:
+ 1de01ebbb233535d27bc36a776c01a5cf1ba64a3e1c84fd55cfd0f0fc874a885 39134366 ros-rolling-moveit-task-constructor-core-dbgsym_0-2023.03.01.03.57_amd64.ddeb
+ c74a1dc25936cde422f368e59489a7b9d68ddcc795474b702beafc3a7d6421cc 33111 ros-rolling-moveit-task-constructor-core_0-2023.03.01.03.57_amd64.buildinfo
+ bd346ea8c521252f1ded07652a9ea4f494c73547d3ec9195b1172471fd55eb83 498354 ros-rolling-moveit-task-constructor-core_0-2023.03.01.03.57_amd64.deb
+Files:
+ 5f25b6e19280bfb869a1864301ae2faf 39134366 debug optional ros-rolling-moveit-task-constructor-core-dbgsym_0-2023.03.01.03.57_amd64.ddeb
+ 77539241bd01ffbba09f076917d8fd6b 33111 misc optional ros-rolling-moveit-task-constructor-core_0-2023.03.01.03.57_amd64.buildinfo
+ fe262f18c9730aad88b43c8f17d31474 498354 misc optional ros-rolling-moveit-task-constructor-core_0-2023.03.01.03.57_amd64.deb

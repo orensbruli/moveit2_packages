@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-perception
+Binary: ros-rolling-moveit-ros-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.16
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-perception - Components of MoveIt connecting to perception
+Changes:
+ ros-rolling-moveit-ros-perception (2.7.0-9-gc27cb30c2-2023.03.01.03.16) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Use sensor data QOS profile for sensor_msgs::Image and sensor_msgs::PointCloud (#664 <https://github.com/ros-planning/moveit2/issues/664>)
+     Co-authored-by: Henry Moore <mailto:henrygerardmoore@gmail.com>
+     Co-authored-by: Tyler Weaver <mailto:tyler@picknik.ai>
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Nathan Brooks, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ dbc2251a398ce7b661eb2b34b84adcf21a849f7b 9144380 ros-rolling-moveit-ros-perception-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.ddeb
+ 9cc83eb472cb92d1af794cbdabcb719900755179 39386 ros-rolling-moveit-ros-perception_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.buildinfo
+ f367771a9d5f66f810a38a186fd228c4a7519465 339042 ros-rolling-moveit-ros-perception_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.deb
+Checksums-Sha256:
+ 19472a5340411b3de68d3d46f74b8144f6657543583d779244935fa0fb8a22d3 9144380 ros-rolling-moveit-ros-perception-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.ddeb
+ 35796f1832c8b72bcfd4762e0ea9418564fd4c1a3b1c40622e56f3fee8591eab 39386 ros-rolling-moveit-ros-perception_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.buildinfo
+ f54be7b6a6a4aca5971ae23f50d9d4fc7135335a574d81390a82318907e533fa 339042 ros-rolling-moveit-ros-perception_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.deb
+Files:
+ bb6ee266c0fdf2a9cc251bf16f8d6c3d 9144380 debug optional ros-rolling-moveit-ros-perception-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.ddeb
+ 8399994190093c2e266e01e981cf1521 39386 misc optional ros-rolling-moveit-ros-perception_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.buildinfo
+ 463f9ec4df74d9f3a82ca67642b2a298 339042 misc optional ros-rolling-moveit-ros-perception_2.7.0-9-gc27cb30c2-2023.03.01.03.16_amd64.deb

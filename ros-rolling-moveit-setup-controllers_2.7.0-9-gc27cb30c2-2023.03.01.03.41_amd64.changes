@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-setup-controllers
+Binary: ros-rolling-moveit-setup-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.41
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rolling-moveit-setup-controllers - MoveIt Setup Steps for ROS 2 Control
+Changes:
+ ros-rolling-moveit-setup-controllers (2.7.0-9-gc27cb30c2-2023.03.01.03.41) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ f60d7105c7b7e0a0c0a1c1b2677011ccc7236510 11629906 ros-rolling-moveit-setup-controllers-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.ddeb
+ 8b08648910f1d644f1802f57c9dadef281d96b1f 35132 ros-rolling-moveit-setup-controllers_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.buildinfo
+ 53d4188c8d9cb00d9f44a74223edd586ac979509 162570 ros-rolling-moveit-setup-controllers_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.deb
+Checksums-Sha256:
+ 6baa92c27ec5004c581099341fe0d8e5bcc03f3bcf7d2878789195e4595fbcb9 11629906 ros-rolling-moveit-setup-controllers-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.ddeb
+ e202495990792e78f3d2d141caf5d1518044c7dea986b5e8e601beb72b9b0b47 35132 ros-rolling-moveit-setup-controllers_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.buildinfo
+ 197304210ca56f0f80e02a06b36706327fe415ed38d9740d51f25d54f294c59e 162570 ros-rolling-moveit-setup-controllers_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.deb
+Files:
+ 19fdcbe0ebb3ccc1238bb242a58f0780 11629906 debug optional ros-rolling-moveit-setup-controllers-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.ddeb
+ 2ac7cca804245c71e803e635b94a2bdf 35132 misc optional ros-rolling-moveit-setup-controllers_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.buildinfo
+ 393ab7de0b8432dd1e1c708c0185f226 162570 misc optional ros-rolling-moveit-setup-controllers_2.7.0-9-gc27cb30c2-2023.03.01.03.41_amd64.deb

@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-ros-benchmarks
+Binary: ros-rolling-moveit-ros-benchmarks
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.21
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-ros-benchmarks - Enhanced tools for benchmarks in MoveIt
+Changes:
+ ros-rolling-moveit-ros-benchmarks (2.7.0-9-gc27cb30c2-2023.03.01.03.21) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Sameer Gupta
+Checksums-Sha1:
+ 53693383cd5a59ccbd4f74a9233b22e6a8d085f1 8048692 ros-rolling-moveit-ros-benchmarks-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.ddeb
+ ed219453553c2227f3b4fedf608b8f3d2ea06168 28192 ros-rolling-moveit-ros-benchmarks_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.buildinfo
+ 3c4a75657e6f927afbe5d2dd882194ab69502fbb 209670 ros-rolling-moveit-ros-benchmarks_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.deb
+Checksums-Sha256:
+ d5f2e05cb4d961fbedc2748b0e48a1123d179eb361a6e86cdf5b9103fc9306cc 8048692 ros-rolling-moveit-ros-benchmarks-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.ddeb
+ 4598158b052235363ba79c36f77ca8db8cb2d8e44a23a383913d452d6eb1745f 28192 ros-rolling-moveit-ros-benchmarks_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.buildinfo
+ 8fa583ace0cfb6b949386d9f917967bcd785c651bf7d4eca5b46ecd3a0c5b252 209670 ros-rolling-moveit-ros-benchmarks_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.deb
+Files:
+ a9946b11fd99856e4b3a9591b90df8f7 8048692 debug optional ros-rolling-moveit-ros-benchmarks-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.ddeb
+ 419663f0bfa3b678b5d0e3deaa7013af 28192 misc optional ros-rolling-moveit-ros-benchmarks_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.buildinfo
+ 397f84579ee6f4c51a8da4f99d4ceedb 209670 misc optional ros-rolling-moveit-ros-benchmarks_2.7.0-9-gc27cb30c2-2023.03.01.03.21_amd64.deb

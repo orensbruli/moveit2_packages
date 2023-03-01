@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-setup-core-plugins
+Binary: ros-rolling-moveit-setup-core-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.43
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rolling-moveit-setup-core-plugins - Core (meta) plugins for MoveIt Setup Assistant
+Changes:
+ ros-rolling-moveit-setup-core-plugins (2.7.0-9-gc27cb30c2-2023.03.01.03.43) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean
+Checksums-Sha1:
+ ca64755e139db5c1335b58d2a94cf23fd21e4e6b 5585136 ros-rolling-moveit-setup-core-plugins-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.ddeb
+ e3d1ffd6e7462a87594a72052729c996fe3f6714 33338 ros-rolling-moveit-setup-core-plugins_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.buildinfo
+ fa0c42221b5fab91a7900d5f00bc4dc5927eb2a4 62316 ros-rolling-moveit-setup-core-plugins_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.deb
+Checksums-Sha256:
+ 5558580f8e5af163fa6e4ab02da118471ba8770f481efcf6a7ba534e6d8484cf 5585136 ros-rolling-moveit-setup-core-plugins-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.ddeb
+ 9ddbb12d7d3663e6ac573240f8fe7309c5270957fb580eb1600e2f514d75a78a 33338 ros-rolling-moveit-setup-core-plugins_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.buildinfo
+ e33ea4d8e1a214d87f22ae942a2a4e391f57235808d8779b418a8d35284f5689 62316 ros-rolling-moveit-setup-core-plugins_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.deb
+Files:
+ 94e568525f8d3b6cdb21d6df73aaad2c 5585136 debug optional ros-rolling-moveit-setup-core-plugins-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.ddeb
+ 8d272014290bf71b4b38f3f21fba16ea 33338 misc optional ros-rolling-moveit-setup-core-plugins_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.buildinfo
+ 7d40b0f80a59773480494a3e6fe308a4 62316 misc optional ros-rolling-moveit-setup-core-plugins_2.7.0-9-gc27cb30c2-2023.03.01.03.43_amd64.deb

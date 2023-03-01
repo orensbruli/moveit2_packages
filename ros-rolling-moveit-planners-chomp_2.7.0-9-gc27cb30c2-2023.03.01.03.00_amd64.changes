@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-planners-chomp
+Binary: ros-rolling-moveit-planners-chomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.00
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-rolling-moveit-planners-chomp - The interface for using CHOMP within MoveIt
+Changes:
+ ros-rolling-moveit-planners-chomp (2.7.0-9-gc27cb30c2-2023.03.01.03.00) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Cleanup lookup of planning pipelines in MoveItCpp (#1710 <https://github.com/ros-planning/moveit2/issues/1710>)
+     * Revert "Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)"
+     * Cleanup lookup of planning pipelines
+     Remove MoveItCpp::getPlanningPipelineNames(), which was obviously intended initially to provide a planning-group-based filter for all available planning pipelines: A pipeline was discarded for a group, if there were no planner_configs defined for that group on the parameter server.
+     As pointed out in #1522 <https://github.com/ros-planning/moveit2/issues/1522>, only OMPL actually explicitly declares planner_configs on the parameter server.
+     To enable all other pipelines as well (and thus circumventing the original filter mechanism), #1522 <https://github.com/ros-planning/moveit2/issues/1522> introduced empty dummy planner_configs for all other planners as well (CHOMP + Pilz).
+     This, obviously, renders the whole filter mechanism useless. Thus, here we just remove the function getPlanningPipelineNames() and the corresponding member groups_pipelines_map_.
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Robert Haschke
+Checksums-Sha1:
+ 6df6e0824986123e13ae3fb119ad8734e03c254b 4448616 ros-rolling-moveit-planners-chomp-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.ddeb
+ ab9ef86924e3235671651db024ae64becb090fdd 27464 ros-rolling-moveit-planners-chomp_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.buildinfo
+ e9e9981049f0ee396ac3367fd59c7584ba160003 36216 ros-rolling-moveit-planners-chomp_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.deb
+Checksums-Sha256:
+ ef1fedd40820bc8fd36a3459d7b3f06c2bb5c6259427f25f36964627ddf853ef 4448616 ros-rolling-moveit-planners-chomp-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.ddeb
+ a4c2a365975689786f4b3530bcf6f193c9985f71c2538533d7d110b2819cb61a 27464 ros-rolling-moveit-planners-chomp_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.buildinfo
+ eb770b30641ff5647d5530fdb7dbaedd8b5e3c83658c1923612095676aa62cbe 36216 ros-rolling-moveit-planners-chomp_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.deb
+Files:
+ a3b796087ef179cd6b647f96e02bc108 4448616 debug optional ros-rolling-moveit-planners-chomp-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.ddeb
+ a6d2ef9a93b7d30a4ec36bbb2c1146ea 27464 misc optional ros-rolling-moveit-planners-chomp_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.buildinfo
+ bc9f005bae0cc4c2609ed61ffda8aa51 36216 misc optional ros-rolling-moveit-planners-chomp_2.7.0-9-gc27cb30c2-2023.03.01.03.00_amd64.deb

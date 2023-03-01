@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-rolling-rviz-marker-tools
+Binary: ros-rolling-rviz-marker-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.03.56
+Distribution: jammy
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-rolling-rviz-marker-tools - Tools for marker creation / handling
+Changes:
+ ros-rolling-rviz-marker-tools (0-2023.03.01.03.56) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Robert Haschke, Michael Görner
+Checksums-Sha1:
+ 9686b92c21c678f0ecb6580b75983190f4ffcd88 829126 ros-rolling-rviz-marker-tools-dbgsym_0-2023.03.01.03.56_amd64.ddeb
+ 5b531fa96cc939327511b25f6fa164b0abb03cfe 23125 ros-rolling-rviz-marker-tools_0-2023.03.01.03.56_amd64.buildinfo
+ e16beee88195da51a1863dd50c2379cb0a8602db 18814 ros-rolling-rviz-marker-tools_0-2023.03.01.03.56_amd64.deb
+Checksums-Sha256:
+ a68dcb38a2d3b000dc5799eaf883b542b7ef1d07f2a3c6a7d1a7c8a3589c1d78 829126 ros-rolling-rviz-marker-tools-dbgsym_0-2023.03.01.03.56_amd64.ddeb
+ 3c10990a3f6ebc267e4f6657a2b241a8bb2161261d833fe751c65d4e4d04c7cf 23125 ros-rolling-rviz-marker-tools_0-2023.03.01.03.56_amd64.buildinfo
+ bc42e79c47c963278c8fdcd71f77d42ad01c0272f2709366de38686885e71559 18814 ros-rolling-rviz-marker-tools_0-2023.03.01.03.56_amd64.deb
+Files:
+ 972795edbf4b8c189ad829a2e26cc7a2 829126 debug optional ros-rolling-rviz-marker-tools-dbgsym_0-2023.03.01.03.56_amd64.ddeb
+ 0db5cddc405623bceaec744236ea5a78 23125 misc optional ros-rolling-rviz-marker-tools_0-2023.03.01.03.56_amd64.buildinfo
+ 628f7ad0905467092aef638472227d05 18814 misc optional ros-rolling-rviz-marker-tools_0-2023.03.01.03.56_amd64.deb

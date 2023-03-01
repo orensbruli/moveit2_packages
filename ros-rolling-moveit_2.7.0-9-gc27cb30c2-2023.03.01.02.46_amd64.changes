@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit
+Binary: ros-rolling-moveit
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.02.46
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit - Meta package that contains all essential packages of MoveIt 2
+Changes:
+ ros-rolling-moveit (2.7.0-9-gc27cb30c2-2023.03.01.02.46) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 9c86891763f22cae04c8cb98856e5dcb245f6bf7 10842 ros-rolling-moveit_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.buildinfo
+ b6fee002035937560a721444556ccccb5c27e90f 13028 ros-rolling-moveit_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.deb
+Checksums-Sha256:
+ 24ebd9c05dd61c8190a981f19a95ca2420c21ce65083693e23bf988eaf1f559e 10842 ros-rolling-moveit_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.buildinfo
+ 1d6ae2afd172eb7987c07419633a16f130cf840e610747a08e037aaa4f159608 13028 ros-rolling-moveit_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.deb
+Files:
+ 28218523dc232da8c9cc04a5fc8d0593 10842 misc optional ros-rolling-moveit_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.buildinfo
+ 3dfef5b9211e3973610c81d32aa5110e 13028 misc optional ros-rolling-moveit_2.7.0-9-gc27cb30c2-2023.03.01.02.46_amd64.deb

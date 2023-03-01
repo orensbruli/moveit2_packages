@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-planners
+Binary: ros-rolling-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.02.48
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-rolling-moveit-planners (2.7.0-9-gc27cb30c2-2023.03.01.02.48) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 6fae025fa7c8ed0b5eaf63ded3af99f6b890520a 10884 ros-rolling-moveit-planners_2.7.0-9-gc27cb30c2-2023.03.01.02.48_amd64.buildinfo
+ 9f007201ca20e6ad51a12558a5eac5cb3bb7f6e2 6194 ros-rolling-moveit-planners_2.7.0-9-gc27cb30c2-2023.03.01.02.48_amd64.deb
+Checksums-Sha256:
+ 055ddab67c167d520f5044ca3f793e639cdfb0a7bf87c77fa6a5d00b1a7548b3 10884 ros-rolling-moveit-planners_2.7.0-9-gc27cb30c2-2023.03.01.02.48_amd64.buildinfo
+ 1c9f99aa710c4ce559fb9204aa2bc506122f457f710392703580bbd29f48f28c 6194 ros-rolling-moveit-planners_2.7.0-9-gc27cb30c2-2023.03.01.02.48_amd64.deb
+Files:
+ c4cc212f971013c5900f89aa5cc697e9 10884 misc optional ros-rolling-moveit-planners_2.7.0-9-gc27cb30c2-2023.03.01.02.48_amd64.buildinfo
+ 071446b189960b34d24d9c7a53afd707 6194 misc optional ros-rolling-moveit-planners_2.7.0-9-gc27cb30c2-2023.03.01.02.48_amd64.deb

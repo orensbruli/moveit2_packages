@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-rolling-moveit-kinematics
+Binary: ros-rolling-moveit-kinematics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.7.0-9-gc27cb30c2-2023.03.01.03.10
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-rolling-moveit-kinematics - Package for all inverse kinematics solvers in MoveIt
+Changes:
+ ros-rolling-moveit-kinematics (2.7.0-9-gc27cb30c2-2023.03.01.03.10) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Add noexcept specifier to constructors
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix IKFAST_TEST (#1850 <https://github.com/ros-planning/moveit2/issues/1850>)
+   * Change log level of CHOMP runtime output and change kdl print (#1818 <https://github.com/ros-planning/moveit2/issues/1818>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke, Sameer Gupta, Sebastian Jahr
+Checksums-Sha1:
+ d90cd913e3d4fe52fe8334895f6b35aaac4166b5 17505548 ros-rolling-moveit-kinematics-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.ddeb
+ d7960f54e3c086381c4b63973affd9ac93b95004 33371 ros-rolling-moveit-kinematics_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.buildinfo
+ bbc29f4704002c2c7ec1887fd79d793afaf3f490 483518 ros-rolling-moveit-kinematics_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.deb
+Checksums-Sha256:
+ eacaa7c87dcccf7b9cd7a7e2dee0c442751c2709f01fa5916dd387720258fd10 17505548 ros-rolling-moveit-kinematics-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.ddeb
+ ba5647868399bf811f39c04abb02748069bb0416b1770bc96d479c7708a29752 33371 ros-rolling-moveit-kinematics_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.buildinfo
+ 34dfc7b23297266bf12a41abe0e360b87ecfaaf5e2ba22a69a55c9a9ad323d1c 483518 ros-rolling-moveit-kinematics_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.deb
+Files:
+ 73646ee89a8a5c5cee1d3091d017d4e0 17505548 debug optional ros-rolling-moveit-kinematics-dbgsym_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.ddeb
+ 5596f05b4e2acecf4f88f251f41e9bc3 33371 misc optional ros-rolling-moveit-kinematics_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.buildinfo
+ df18be07388b7184500ff9a999d2c901 483518 misc optional ros-rolling-moveit-kinematics_2.7.0-9-gc27cb30c2-2023.03.01.03.10_amd64.deb
