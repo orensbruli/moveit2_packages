@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-framework
+Binary: ros-humble-moveit-setup-framework
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.03.41
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-framework - C++ Interface for defining setup steps for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-framework (2.5.4-18-gadab7e630-2023.03.01.03.41) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 94555a0e34475b4b854c529c5babc297ecca9939 6821280 ros-humble-moveit-setup-framework-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.ddeb
+ 742f801cefdb99296e4ad80e393bb4718ae3515e 32350 ros-humble-moveit-setup-framework_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.buildinfo
+ 0acd684363cab1b1b22f34e62a30b1015979d26d 185316 ros-humble-moveit-setup-framework_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.deb
+Checksums-Sha256:
+ 904bc80edaec0146d9215d56476ae984f954577f3eed596b2b4badd97002343f 6821280 ros-humble-moveit-setup-framework-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.ddeb
+ 757d0f6902c556fa1bc4da28e242192a6bb97f209510b3587dcd82aa380943c4 32350 ros-humble-moveit-setup-framework_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.buildinfo
+ e1861a6eb27f4eb2d04189811dc18d857c3a90372070b7c18a1f0ef6754c4f27 185316 ros-humble-moveit-setup-framework_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.deb
+Files:
+ 3a5046c06a5a4ba72b9f0921a0ed5e32 6821280 debug optional ros-humble-moveit-setup-framework-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.ddeb
+ 85d24b4a98cd5523a17affcb315ad2dd 32350 misc optional ros-humble-moveit-setup-framework_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.buildinfo
+ 8ebe5e3b2fcf0bf25fcf296817364aa5 185316 misc optional ros-humble-moveit-setup-framework_2.5.4-18-gadab7e630-2023.03.01.03.41_amd64.deb

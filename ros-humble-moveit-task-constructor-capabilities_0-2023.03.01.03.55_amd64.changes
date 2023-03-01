@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-humble-moveit-task-constructor-capabilities
+Binary: ros-humble-moveit-task-constructor-capabilities
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.03.55
+Distribution: jammy
+Urgency: high
+Maintainer: Michael v4hn Goerner <me@v4hn.de>
+Changed-By: Michael v4hn Goerner <me@v4hn.de>
+Description:
+ ros-humble-moveit-task-constructor-capabilities - MoveGroupCapabilites to interact with MoveIt
+Changes:
+ ros-humble-moveit-task-constructor-capabilities (0-2023.03.01.03.55) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Michael Görner, Robert Haschke
+Checksums-Sha1:
+ 3ddd25d8c0656cf0a95440e23cd0e2d889564f1c 2357628 ros-humble-moveit-task-constructor-capabilities-dbgsym_0-2023.03.01.03.55_amd64.ddeb
+ 2618ca9fec6201b651599b555ac0904557641801 31730 ros-humble-moveit-task-constructor-capabilities_0-2023.03.01.03.55_amd64.buildinfo
+ d4c4222b90b1ac898085cf209d4082eb963a5176 48902 ros-humble-moveit-task-constructor-capabilities_0-2023.03.01.03.55_amd64.deb
+Checksums-Sha256:
+ e4ec310a4c2fce7d48df784d69396d859f6718394e20c2ad64fd4b2c4ba84746 2357628 ros-humble-moveit-task-constructor-capabilities-dbgsym_0-2023.03.01.03.55_amd64.ddeb
+ 23e0e050f3e3c9d00ee80a5350d66c4d31f2038713250b8004a946cf9221e5d8 31730 ros-humble-moveit-task-constructor-capabilities_0-2023.03.01.03.55_amd64.buildinfo
+ 202732cae9b2ecbff21497269f645b154fb3b6488ca866284b393a1a9d817275 48902 ros-humble-moveit-task-constructor-capabilities_0-2023.03.01.03.55_amd64.deb
+Files:
+ f65f5f9e2d9f073b36b603fa47843366 2357628 debug optional ros-humble-moveit-task-constructor-capabilities-dbgsym_0-2023.03.01.03.55_amd64.ddeb
+ e4897ae0492046552c630a6189f343db 31730 misc optional ros-humble-moveit-task-constructor-capabilities_0-2023.03.01.03.55_amd64.buildinfo
+ 9934f51a27b89a04030575689f7ef181 48902 misc optional ros-humble-moveit-task-constructor-capabilities_0-2023.03.01.03.55_amd64.deb

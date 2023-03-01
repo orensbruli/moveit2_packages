@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Binary: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.03.09
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin - The prbt_ikfast_manipulator_plugin package
+Changes:
+ ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin (2.5.4-18-gadab7e630-2023.03.01.03.09) jammy; urgency=high
+ .
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>) (#1652 <https://github.com/ros-planning/moveit2/issues/1652>)
+     (cherry picked from commit 7d758de1b2f2904b8c85520129fa8d48aad93713)
+     Co-authored-by: J. Javan <mailto:J-Javan@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 2c9960526833acb799e666ed46c595220ccd2bea 2593852 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.ddeb
+ bd11d8b8bbe87c6029a446ab236f4f2648195d19 25636 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.buildinfo
+ 853f18f91191117db7d5b366c66cec8941b15701 123622 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.deb
+Checksums-Sha256:
+ 24f9b7db0a6cbcb13208f8cc66a0bd6c901d0c468f1e5be4bbca3a597f1554c0 2593852 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.ddeb
+ 4f06371c15206bc2a4ca20a9f7fb81e01b77d3860c758a4ee9675259b2ee9493 25636 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.buildinfo
+ 62bde315ba66cd596369ef56e148fbc7f9f0078f2c0b51999b132d66b7776c6c 123622 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.deb
+Files:
+ 963c26556a2d95de0147dfd5954513c8 2593852 debug optional ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.ddeb
+ 1e2f005155ca209283bfda4f24953349 25636 misc optional ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.buildinfo
+ 28387689b4ad5c8ee77404e87b2730d9 123622 misc optional ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_2.5.4-18-gadab7e630-2023.03.01.03.09_amd64.deb

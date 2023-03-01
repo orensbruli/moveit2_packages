@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-humble-moveit-task-constructor-msgs
+Binary: ros-humble-moveit-task-constructor-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.02.56
+Distribution: jammy
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-humble-moveit-task-constructor-msgs - Messages for MoveIt Task Pipeline
+Changes:
+ ros-humble-moveit-task-constructor-msgs (0-2023.03.01.02.56) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Michael Görner, Robert Haschke
+Checksums-Sha1:
+ eaa729caaa16a82aeb6d4141c91c2421f20dbe2d 2486324 ros-humble-moveit-task-constructor-msgs-dbgsym_0-2023.03.01.02.56_amd64.ddeb
+ d3c117d0a4ef8ffb712d299f437ca89b82186fb3 13378 ros-humble-moveit-task-constructor-msgs_0-2023.03.01.02.56_amd64.buildinfo
+ 8345fd376389d6d624c19a6d0391569d09e77d1f 196110 ros-humble-moveit-task-constructor-msgs_0-2023.03.01.02.56_amd64.deb
+Checksums-Sha256:
+ a79549c751fdbb5c2a388d38226d149071751a70c841fddb3db1728422b15b2b 2486324 ros-humble-moveit-task-constructor-msgs-dbgsym_0-2023.03.01.02.56_amd64.ddeb
+ 09139e6fa221de8f4b1352217c2c787598cc2dcfa0dd415c94d03618b59c7073 13378 ros-humble-moveit-task-constructor-msgs_0-2023.03.01.02.56_amd64.buildinfo
+ c528b8bac27d9336196b2d477d394182f2bc64fa38f5af51a937dbadfde646c4 196110 ros-humble-moveit-task-constructor-msgs_0-2023.03.01.02.56_amd64.deb
+Files:
+ 10a9dad1eccff1fcdf9a473c0474d8f0 2486324 debug optional ros-humble-moveit-task-constructor-msgs-dbgsym_0-2023.03.01.02.56_amd64.ddeb
+ 79540df2b7eab71175fd78bc2ccf3e36 13378 misc optional ros-humble-moveit-task-constructor-msgs_0-2023.03.01.02.56_amd64.buildinfo
+ a0e4ad2f22b761f0acde62ae8e462c55 196110 misc optional ros-humble-moveit-task-constructor-msgs_0-2023.03.01.02.56_amd64.deb

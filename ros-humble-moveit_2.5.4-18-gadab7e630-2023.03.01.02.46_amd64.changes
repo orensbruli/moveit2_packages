@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit
+Binary: ros-humble-moveit
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.02.46
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit - Meta package that contains all essential packages of MoveIt 2
+Changes:
+ ros-humble-moveit (2.5.4-18-gadab7e630-2023.03.01.02.46) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 59d24e4991749fa3653c8ad81655e4c6d4cdc585 10803 ros-humble-moveit_2.5.4-18-gadab7e630-2023.03.01.02.46_amd64.buildinfo
+ 153a2164de428bd9ef34b94384f898685b6461b7 12984 ros-humble-moveit_2.5.4-18-gadab7e630-2023.03.01.02.46_amd64.deb
+Checksums-Sha256:
+ 186f48578891f8d88343f20e357e8d9ef07cfe283483fbdcb037982b20ec3525 10803 ros-humble-moveit_2.5.4-18-gadab7e630-2023.03.01.02.46_amd64.buildinfo
+ 8338c8581271132b7270d82a5c6606a863984f72394a75a04a0296712c50e831 12984 ros-humble-moveit_2.5.4-18-gadab7e630-2023.03.01.02.46_amd64.deb
+Files:
+ 4da95717c999727f99ad4ffb5469dfe1 10803 misc optional ros-humble-moveit_2.5.4-18-gadab7e630-2023.03.01.02.46_amd64.buildinfo
+ a295c508ec0aaeeebe075e8c486ee29f 12984 misc optional ros-humble-moveit_2.5.4-18-gadab7e630-2023.03.01.02.46_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-planners
+Binary: ros-humble-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.02.48
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-humble-moveit-planners (2.5.4-18-gadab7e630-2023.03.01.02.48) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ bf32920791b7527b16be58f1e7cc68cca832ace2 10845 ros-humble-moveit-planners_2.5.4-18-gadab7e630-2023.03.01.02.48_amd64.buildinfo
+ 2dab700d28a820f489473a9e7cfa2511304adbbb 6150 ros-humble-moveit-planners_2.5.4-18-gadab7e630-2023.03.01.02.48_amd64.deb
+Checksums-Sha256:
+ 0c0445498189fd3837cf708f61f4e010564303e11d61b0ce3a8639981bebef1e 10845 ros-humble-moveit-planners_2.5.4-18-gadab7e630-2023.03.01.02.48_amd64.buildinfo
+ 993469369e96dfd5f1e92bce04ae7521afbf16db030cf094811920a82f93ec45 6150 ros-humble-moveit-planners_2.5.4-18-gadab7e630-2023.03.01.02.48_amd64.deb
+Files:
+ 0490646e585eed2fc0a6f8de957be9d8 10845 misc optional ros-humble-moveit-planners_2.5.4-18-gadab7e630-2023.03.01.02.48_amd64.buildinfo
+ 6f234bd30ea8d9bbd66ab6622bc37a5e 6150 misc optional ros-humble-moveit-planners_2.5.4-18-gadab7e630-2023.03.01.02.48_amd64.deb

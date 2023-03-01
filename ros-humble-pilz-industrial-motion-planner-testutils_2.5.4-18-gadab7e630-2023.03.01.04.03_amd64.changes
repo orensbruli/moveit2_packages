@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-pilz-industrial-motion-planner-testutils
+Binary: ros-humble-pilz-industrial-motion-planner-testutils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.04.03
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-humble-pilz-industrial-motion-planner-testutils - Helper scripts and functionality to test industrial motion genera
+Changes:
+ ros-humble-pilz-industrial-motion-planner-testutils (2.5.4-18-gadab7e630-2023.03.01.04.03) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 6ccbfc7d84e85e72b2cdb05448fe5dd89a224a1c 5086520 ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.ddeb
+ 69ffda5dc3b0a1922f5a0c89ba57a263effb0b8a 27181 ros-humble-pilz-industrial-motion-planner-testutils_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.buildinfo
+ 3338335730e9bada1482511df86c442670a40fbd 104834 ros-humble-pilz-industrial-motion-planner-testutils_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.deb
+Checksums-Sha256:
+ b2da81f3c732a2bc6158b29f5ff39791359e791386f4059f81ec7589ba1d361d 5086520 ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.ddeb
+ 8bae7b9c8cbf006de53dc77465bd25ff4be1a194a314e48cc9d98d0951ac0d42 27181 ros-humble-pilz-industrial-motion-planner-testutils_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.buildinfo
+ 37668a7bf002ce7c41432bf2610ed8abdd281f98bb04e273947a5302834e4879 104834 ros-humble-pilz-industrial-motion-planner-testutils_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.deb
+Files:
+ 6861ee4fee20ac823b880aad72e507ed 5086520 debug optional ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.ddeb
+ a5ca2690705eb1e08e25847c60ce371e 27181 misc optional ros-humble-pilz-industrial-motion-planner-testutils_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.buildinfo
+ 72a4c92a2ce802ab438732eb28549dd6 104834 misc optional ros-humble-pilz-industrial-motion-planner-testutils_2.5.4-18-gadab7e630-2023.03.01.04.03_amd64.deb

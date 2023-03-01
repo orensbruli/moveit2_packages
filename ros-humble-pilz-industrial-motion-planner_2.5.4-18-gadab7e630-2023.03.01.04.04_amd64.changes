@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-pilz-industrial-motion-planner
+Binary: ros-humble-pilz-industrial-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.04.04
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-humble-pilz-industrial-motion-planner - MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC
+Changes:
+ ros-humble-pilz-industrial-motion-planner (2.5.4-18-gadab7e630-2023.03.01.04.04) jammy; urgency=high
+ .
+   * Backport to Humble (#1642 <https://github.com/ros-planning/moveit2/issues/1642>)
+     Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+     Co-authored-by: Michael Görner <mailto:me@v4hn.de>
+     Co-authored-by: Jochen Sprickerhof <mailto:git@jochen.sprickerhof.de>
+   * Use MoveItConfigsBuilder in Pilz test launch file (#1571 <https://github.com/ros-planning/moveit2/issues/1571>) (#1662 <https://github.com/ros-planning/moveit2/issues/1662>)
+     (cherry picked from commit 5e880bacaad780f511ed99847050216a8b9905c1)
+     Co-authored-by: Abishalini Sivaraman <mailto:abi.gpuram@gmail.com>
+   * Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>) (#1656 <https://github.com/ros-planning/moveit2/issues/1656>)
+     (cherry picked from commit 888fc5358280b20edc394947e98341c0f03dc0bd)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>) (#1652 <https://github.com/ros-planning/moveit2/issues/1652>)
+     (cherry picked from commit 7d758de1b2f2904b8c85520129fa8d48aad93713)
+     Co-authored-by: J. Javan <mailto:J-Javan@users.noreply.github.com>
+   * Removed plan_with_sensing (#1142 <https://github.com/ros-planning/moveit2/issues/1142>) (#1647 <https://github.com/ros-planning/moveit2/issues/1647>)
+     (cherry picked from commit ad9fb465776c68d53431ec477ff89d7e4e25f3b3)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>) (#1483 <https://github.com/ros-planning/moveit2/issues/1483>)
+   * Contributors: Tyler Weaver, mergify[bot]
+Checksums-Sha1:
+ 072995753ddf94c550066aa3a8ef4f3ad4f252f3 87587400 ros-humble-pilz-industrial-motion-planner-dbgsym_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.ddeb
+ 71d586817c0e3bea23a93252deeac67c6b77fe69 35977 ros-humble-pilz-industrial-motion-planner_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.buildinfo
+ cc201a39bc688c03975d67e169753ee1665683d2 1733444 ros-humble-pilz-industrial-motion-planner_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.deb
+Checksums-Sha256:
+ b9f53c7838c49134840a81ae2505af439d6cb1df27e5d1f5ca15a89d80ed5e1a 87587400 ros-humble-pilz-industrial-motion-planner-dbgsym_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.ddeb
+ 1a843c3240a2076f221be1f3954fc57869b369cd605548dc0f93f181c19b3665 35977 ros-humble-pilz-industrial-motion-planner_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.buildinfo
+ 62e6e9b65221250194e959780edda5536692128fe6cb5e47a69049401d26e039 1733444 ros-humble-pilz-industrial-motion-planner_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.deb
+Files:
+ e1a3110fd09ddccef4dd45af3733ac80 87587400 debug optional ros-humble-pilz-industrial-motion-planner-dbgsym_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.ddeb
+ cc9930977fb5da8986694b56b6cb5b4f 35977 misc optional ros-humble-pilz-industrial-motion-planner_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.buildinfo
+ 20430927a51451369e20d4b83457d08d 1733444 misc optional ros-humble-pilz-industrial-motion-planner_2.5.4-18-gadab7e630-2023.03.01.04.04_amd64.deb

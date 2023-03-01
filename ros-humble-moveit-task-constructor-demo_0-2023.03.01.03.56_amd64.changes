@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-humble-moveit-task-constructor-demo
+Binary: ros-humble-moveit-task-constructor-demo
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.03.56
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-task-constructor-demo - demo tasks illustrating various capabilities of MTC.
+Changes:
+ ros-humble-moveit-task-constructor-demo (0-2023.03.01.03.56) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Michael Görner, Robert Haschke
+Checksums-Sha1:
+ 811dd461a31be7eed83c0fa0d9d4dac6f5c011fa 13896044 ros-humble-moveit-task-constructor-demo-dbgsym_0-2023.03.01.03.56_amd64.ddeb
+ 3e8d8907b48873d43d3f8c16b3c6cc7b7e9fbfa4 32326 ros-humble-moveit-task-constructor-demo_0-2023.03.01.03.56_amd64.buildinfo
+ 895166b03a77d6ff80117c732bd4d00ca2f314e9 105034 ros-humble-moveit-task-constructor-demo_0-2023.03.01.03.56_amd64.deb
+Checksums-Sha256:
+ 8c43c38e7abdb16179135538326b6c639b8fb91997a4ac92cd209c0d2c75486b 13896044 ros-humble-moveit-task-constructor-demo-dbgsym_0-2023.03.01.03.56_amd64.ddeb
+ 0a7d18a29f0343ec1603c26beeee79d88b3300bc431bc9c0db78b0b21e19084a 32326 ros-humble-moveit-task-constructor-demo_0-2023.03.01.03.56_amd64.buildinfo
+ d3363277a4ad2d0885bce5558feedffc7e6eee76391e36ddbfe08725cb642e7b 105034 ros-humble-moveit-task-constructor-demo_0-2023.03.01.03.56_amd64.deb
+Files:
+ e040b09b0f3b712e0bc0956092fe274d 13896044 debug optional ros-humble-moveit-task-constructor-demo-dbgsym_0-2023.03.01.03.56_amd64.ddeb
+ 7f47900b39cfc4f6736ef62f9098efb8 32326 misc optional ros-humble-moveit-task-constructor-demo_0-2023.03.01.03.56_amd64.buildinfo
+ 28e430380958d75d6a5f23b2242b42d8 105034 misc optional ros-humble-moveit-task-constructor-demo_0-2023.03.01.03.56_amd64.deb

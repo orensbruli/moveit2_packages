@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-resources-prbt-moveit-config
+Binary: ros-humble-moveit-resources-prbt-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.02.53
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-humble-moveit-resources-prbt-moveit-config - MoveIt Resources for testing: Pilz PRBT 6 A project-internal conf
+Changes:
+ ros-humble-moveit-resources-prbt-moveit-config (2.5.4-18-gadab7e630-2023.03.01.02.53) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ ed51e65fa92ddca3ead152db9ed815ee7822ad84 9246 ros-humble-moveit-resources-prbt-moveit-config_2.5.4-18-gadab7e630-2023.03.01.02.53_amd64.buildinfo
+ 9d67cb4517cec3e075f14c337b4ae2689460a1b8 13880 ros-humble-moveit-resources-prbt-moveit-config_2.5.4-18-gadab7e630-2023.03.01.02.53_amd64.deb
+Checksums-Sha256:
+ 8be370fa1f59e5bb25c2569f086f119193a8eb178e3f8d89625b3859ba3f60b7 9246 ros-humble-moveit-resources-prbt-moveit-config_2.5.4-18-gadab7e630-2023.03.01.02.53_amd64.buildinfo
+ 7a5c47e7ebb7eeeb3117f368c8215bcb9addbed441a3adc1641738ff24e90486 13880 ros-humble-moveit-resources-prbt-moveit-config_2.5.4-18-gadab7e630-2023.03.01.02.53_amd64.deb
+Files:
+ 98be3006eec3ec18feb7d90ad19f364c 9246 misc optional ros-humble-moveit-resources-prbt-moveit-config_2.5.4-18-gadab7e630-2023.03.01.02.53_amd64.buildinfo
+ bf41d47b3da975777100298d30b53600 13880 misc optional ros-humble-moveit-resources-prbt-moveit-config_2.5.4-18-gadab7e630-2023.03.01.02.53_amd64.deb

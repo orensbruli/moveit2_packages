@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-core-plugins
+Binary: ros-humble-moveit-setup-core-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.03.46
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-core-plugins - Core (meta) plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-core-plugins (2.5.4-18-gadab7e630-2023.03.01.03.46) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 1c4677fa78e869f267ad5a6db38a3bc646df65f5 5625312 ros-humble-moveit-setup-core-plugins-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.ddeb
+ 7149d235ae246c8bed92a7ac3f42adffb9eb2ad3 32451 ros-humble-moveit-setup-core-plugins_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.buildinfo
+ 6fca04456f7e4012d15e088765ec72513df42d2c 61578 ros-humble-moveit-setup-core-plugins_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.deb
+Checksums-Sha256:
+ 159e31283c07bc6fdb3f7956ec1dc89425a162ce06f97003aaff630cb0fa44c2 5625312 ros-humble-moveit-setup-core-plugins-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.ddeb
+ 56d8c107327d686682cb445b87e75465497d2931565646dbc84f82d1c2fad417 32451 ros-humble-moveit-setup-core-plugins_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.buildinfo
+ fa94d35b1d89ab6c52d0302fd28e53ebade927261323d504fa51e3b6a699647b 61578 ros-humble-moveit-setup-core-plugins_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.deb
+Files:
+ 09d9f2b61cdd86d325a134050590fd42 5625312 debug optional ros-humble-moveit-setup-core-plugins-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.ddeb
+ 9b845cd17e809b7bb17c7678c1efebab 32451 misc optional ros-humble-moveit-setup-core-plugins_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.buildinfo
+ a93387c1e1dab6c6685bb99fe22603e3 61578 misc optional ros-humble-moveit-setup-core-plugins_2.5.4-18-gadab7e630-2023.03.01.03.46_amd64.deb

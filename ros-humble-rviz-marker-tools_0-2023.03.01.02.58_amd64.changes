@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-humble-rviz-marker-tools
+Binary: ros-humble-rviz-marker-tools
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.02.58
+Distribution: jammy
+Urgency: high
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Changed-By: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Description:
+ ros-humble-rviz-marker-tools - Tools for marker creation / handling
+Changes:
+ ros-humble-rviz-marker-tools (0-2023.03.01.02.58) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Robert Haschke, Michael Görner
+Checksums-Sha1:
+ 8006a87e86311db664e122b1681f2f69ab316f44 825608 ros-humble-rviz-marker-tools-dbgsym_0-2023.03.01.02.58_amd64.ddeb
+ e5ae6b463edd79950f73e2709c022bb45bd6158c 22924 ros-humble-rviz-marker-tools_0-2023.03.01.02.58_amd64.buildinfo
+ 9a83791683a96e926304c3ed222050f15f032433 18816 ros-humble-rviz-marker-tools_0-2023.03.01.02.58_amd64.deb
+Checksums-Sha256:
+ f378fe8048e39fab85d2ddcccadfc9367f9bdecf17dd71c7231eabdfee5a9410 825608 ros-humble-rviz-marker-tools-dbgsym_0-2023.03.01.02.58_amd64.ddeb
+ 092304f78104cb7400dd6609bc588fed3efc12fad1d7f411d228c667e7240321 22924 ros-humble-rviz-marker-tools_0-2023.03.01.02.58_amd64.buildinfo
+ 787fbca925ec28f87fe24ccf3f1da2a1ac6c1fe7f6fac2886ae45469cff097d3 18816 ros-humble-rviz-marker-tools_0-2023.03.01.02.58_amd64.deb
+Files:
+ 22b7230b799cdb489678c13a11f2b738 825608 debug optional ros-humble-rviz-marker-tools-dbgsym_0-2023.03.01.02.58_amd64.ddeb
+ 11c0119447835ea95a3feb9eed28e194 22924 misc optional ros-humble-rviz-marker-tools_0-2023.03.01.02.58_amd64.buildinfo
+ 00704a46e24f7b822732719be65cffe3 18816 misc optional ros-humble-rviz-marker-tools_0-2023.03.01.02.58_amd64.deb

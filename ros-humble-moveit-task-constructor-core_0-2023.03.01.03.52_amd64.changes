@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 Feb 2023 00:00:00 -0000
+Source: ros-humble-moveit-task-constructor-core
+Binary: ros-humble-moveit-task-constructor-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.03.01.03.52
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Goerner <me@v4hn.de>
+Changed-By: Michael Goerner <me@v4hn.de>
+Description:
+ ros-humble-moveit-task-constructor-core - MoveIt Task Pipeline
+Changes:
+ ros-humble-moveit-task-constructor-core (0-2023.03.01.03.52) jammy; urgency=high
+ .
+   * Initial release
+   * Contributors: Michael Görner, Robert Haschke, Captain Yoshi, Christian Petersmeier, Henning Kayser, Jafar Abdi, Tyler Weaver
+Checksums-Sha1:
+ e7e161b1a5d4fa79d3b28557441773c12524dbbe 39210178 ros-humble-moveit-task-constructor-core-dbgsym_0-2023.03.01.03.52_amd64.ddeb
+ 8ef444d9ace4ead6b0c196c0cd0b7d71d9477eb6 32207 ros-humble-moveit-task-constructor-core_0-2023.03.01.03.52_amd64.buildinfo
+ 76a0752bd02130170e504f4288a99a4b026b76a4 505380 ros-humble-moveit-task-constructor-core_0-2023.03.01.03.52_amd64.deb
+Checksums-Sha256:
+ 6f6c95892808d7db65517c10763064cea3ce4484f2499bb78a425f4ba90c3f91 39210178 ros-humble-moveit-task-constructor-core-dbgsym_0-2023.03.01.03.52_amd64.ddeb
+ 08ad1783f84e5069db10cf9a2bbeb6cee08d603a4f4cd6265ebccfe7fcae2fb4 32207 ros-humble-moveit-task-constructor-core_0-2023.03.01.03.52_amd64.buildinfo
+ ebbb08a92505fbdfb7705972e3017da1c29dc2388ce41bd368bd8ef7a19bdc0d 505380 ros-humble-moveit-task-constructor-core_0-2023.03.01.03.52_amd64.deb
+Files:
+ e357e9d80b1b58058cbf92c78565330c 39210178 debug optional ros-humble-moveit-task-constructor-core-dbgsym_0-2023.03.01.03.52_amd64.ddeb
+ debb5e55135a39c5563bf5358f45af85 32207 misc optional ros-humble-moveit-task-constructor-core_0-2023.03.01.03.52_amd64.buildinfo
+ 5993ed6a1c7cf68c10ea4ba126881fd4 505380 misc optional ros-humble-moveit-task-constructor-core_0-2023.03.01.03.52_amd64.deb

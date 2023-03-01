@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-app-plugins
+Binary: ros-humble-moveit-setup-app-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.03.43
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-app-plugins - Various specialty plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-app-plugins (2.5.4-18-gadab7e630-2023.03.01.03.43) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>) (#1555 <https://github.com/ros-planning/moveit2/issues/1555>)
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 557ca1c43c467b07af9de5cf6e323aee8706b6c5 3657584 ros-humble-moveit-setup-app-plugins-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.ddeb
+ 190a19383f4c5bf80177f9c3aa02c4b3b4a4bf99 32442 ros-humble-moveit-setup-app-plugins_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.buildinfo
+ 29ef0bccc26734fbed87d52fa87980c981391bb6 69958 ros-humble-moveit-setup-app-plugins_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.deb
+Checksums-Sha256:
+ ce693e83cc4bf991e68bb5a8db95620e8c3e10507230297ac08af0cbf3247e0c 3657584 ros-humble-moveit-setup-app-plugins-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.ddeb
+ dcb7012d9f9307484ef28b5602453bd7e4a74bf4eb16263446ff839aee0fc84f 32442 ros-humble-moveit-setup-app-plugins_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.buildinfo
+ 7cf5b62cb58e1cea3c754f8daa8a90c06bb8a3ca3f747635b8d8e72baac06d15 69958 ros-humble-moveit-setup-app-plugins_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.deb
+Files:
+ 061795496de58304074682d06784239b 3657584 debug optional ros-humble-moveit-setup-app-plugins-dbgsym_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.ddeb
+ a0d6996bab41347dda5f26801726048d 32442 misc optional ros-humble-moveit-setup-app-plugins_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.buildinfo
+ 156d1ffb48b40f3ea4295264fc4f8af8 69958 misc optional ros-humble-moveit-setup-app-plugins_2.5.4-18-gadab7e630-2023.03.01.03.43_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Fri, 04 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-configs-utils
+Binary: ros-humble-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.5.4-18-gadab7e630-2023.03.01.02.47
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-humble-moveit-configs-utils (2.5.4-18-gadab7e630-2023.03.01.02.47) jammy; urgency=high
+ .
+   * Use MoveItConfigsBuilder in Pilz test launch file (#1571 <https://github.com/ros-planning/moveit2/issues/1571>) (#1662 <https://github.com/ros-planning/moveit2/issues/1662>)
+     (cherry picked from commit 5e880bacaad780f511ed99847050216a8b9905c1)
+     Co-authored-by: Abishalini Sivaraman <mailto:abi.gpuram@gmail.com>
+   * Only require Cartesian limits if Pilz is used (#1519 <https://github.com/ros-planning/moveit2/issues/1519>) (#1653 <https://github.com/ros-planning/moveit2/issues/1653>)
+     (cherry picked from commit 40f7f091cc77a683f3c0a4af64f6a463dd0846f1)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Typo fix (#1518 <https://github.com/ros-planning/moveit2/issues/1518>) (#1650 <https://github.com/ros-planning/moveit2/issues/1650>)
+     (cherry picked from commit e89526de24d88fb05eb646a7925de69ba480bfe8)
+     Co-authored-by: Stephanie Eng <mailto:stephanie-eng@users.noreply.github.com>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ ae795e77a2644bffb0b3a0d873fdd494258bac7f 9908 ros-humble-moveit-configs-utils_2.5.4-18-gadab7e630-2023.03.01.02.47_amd64.buildinfo
+ 48fbe15ed6c756b2062f815f45f9eec14f0cc271 23030 ros-humble-moveit-configs-utils_2.5.4-18-gadab7e630-2023.03.01.02.47_amd64.deb
+Checksums-Sha256:
+ 9c2f882a02ade35fcfd7d5fff83866a278f2199e08fa0212531723840167516b 9908 ros-humble-moveit-configs-utils_2.5.4-18-gadab7e630-2023.03.01.02.47_amd64.buildinfo
+ 2e2974c027f20e2f98034aa23ab53ee0e79737aadc3321f3d8e82633ffc52a33 23030 ros-humble-moveit-configs-utils_2.5.4-18-gadab7e630-2023.03.01.02.47_amd64.deb
+Files:
+ f9bcce6a920ae96279ea6321ab970763 9908 misc optional ros-humble-moveit-configs-utils_2.5.4-18-gadab7e630-2023.03.01.02.47_amd64.buildinfo
+ 3a93562180f06d2034102eae292b1d0c 23030 misc optional ros-humble-moveit-configs-utils_2.5.4-18-gadab7e630-2023.03.01.02.47_amd64.deb
